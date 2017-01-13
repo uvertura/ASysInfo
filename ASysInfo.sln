@@ -3,7 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibASysInfo", "LibASysInfo\LibASysInfo.csproj", "{9971D59C-EC76-4E63-8191-4D3EC7B01EEB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tester", "Tester\Tester.csproj", "{66491D7F-F5E5-41F4-8E94-61931FED6D38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASysInfoService", "ASysInfoService\ASysInfoService.csproj", "{E5275523-310F-443D-A986-A118113536EC}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9971D59C-EC76-4E63-8191-4D3EC7B01EEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9971D59C-EC76-4E63-8191-4D3EC7B01EEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9971D59C-EC76-4E63-8191-4D3EC7B01EEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9971D59C-EC76-4E63-8191-4D3EC7B01EEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66491D7F-F5E5-41F4-8E94-61931FED6D38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66491D7F-F5E5-41F4-8E94-61931FED6D38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66491D7F-F5E5-41F4-8E94-61931FED6D38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66491D7F-F5E5-41F4-8E94-61931FED6D38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5275523-310F-443D-A986-A118113536EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5275523-310F-443D-A986-A118113536EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5275523-310F-443D-A986-A118113536EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5275523-310F-443D-A986-A118113536EC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
